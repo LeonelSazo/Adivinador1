@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Adivinador1.MainPage">
+
+    <StackLayout>
+        <Label Text="Soy Leo el Adivinador y se en que nuemero  estas pensando  ¿Quieres intentar? " FontSize="Medium" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" x:Name="lbl1"/>
+        <Button Text="Empezar" x:Name="Star"  Clicked="Star_Clicked"/>
+        <Label Text=" " HorizontalOptions="Center" x:Name="lbl2"/>
+        <Button Text="" x:Name="sig1" Clicked="sig1_Clicked"/>
+        <Label Text=" " HorizontalOptions="Center" x:Name="lbl3"/>
+        <Button Text=""  x:Name="sig2" Clicked="sig2_Clicked"/>
+        <Label Text=" " HorizontalOptions="Center" x:Name="lbl4"/>
+        <Button Text="" x:Name="sig3" Clicked="sig3_Clicked"/>
+        <Entry Placeholder="Ingresa el resultado " HorizontalOptions="Center" x:Name="Resultd" Keyboard="Numeric"/>
+        <Button Text="" x:Name="Calcular" Clicked="Calcular_Clicked"/>
+        <Button Text="" x:Name="rein" Clicked="rein_Clicked"/>
+
+    </StackLayout>
+
+</ContentPage>
